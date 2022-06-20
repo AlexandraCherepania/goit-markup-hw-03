@@ -12,96 +12,105 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
 </head>
 
-<body>
+<body> <div class="conteiner">
     <!--Шапка-->
 
     <header>
-        <nav>
-            <a href="./index.html" class="logo"><span>Web</span>Studio</a>
-            <ul>
-                <li>
+
+        <div class="conteiner-menu">
+
+        <nav class="conteiner-menu">
+            <a href="./index.html" class="logo conteiner-menu"><span>Web</span>Studio</a>
+            <ul class="conteiner-menu">
+                <li class="conteiner-menu-list">
                     <a href="./index.html" class="nav">Студія</a>
                 </li>
-                <li>
+                <li class="conteiner-menu-list">
                     <a href="./portfolio.html" class="nav">Портфоліо</a>
                 </li>
-                <li>
+                <li class="conteiner-menu-list">
                     <a href="" class="nav">Контакти</a>
                 </li>
             </ul>
         </nav>
 
-        <ul>
-            <li class="contacts">
+        <ul class="conteiner-menu">
+            <li class="contacts conteiner-menu-list">
                 <a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a>
             </li>
-            <li class="contacts">
+            <li class="contacts conteiner-menu-list">
                 <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
             </li>
         </ul>
+        </div>
     </header>
 
 
     <main>
 
-        <!--Банер-->
-        <section class="baner">
-            <h1>Ефективні рішення для вашого бізнесу</h1>
+        <!--Банер--> <div class="conteiner">
+        <section class="baner style">
+            <h1 class="baner-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
             <button type="button" class="button-baner">Замовити послугу</button>
 
 
         </section>
+        </div>
 
 
 
-        <!--Особливості-->
-        <section>
+        <!--Особливості--> 
+        <section >
             <h2 class="main-title">Особливості</h2>
-            <ul>
-                <li>
+            <ul class="features">
+                <li class="item">
                     <h3 class="title-features">Увага до деталей</h3>
                     <p class="text-features">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
 
-                <li>
+                <li class="item">
                     <h3 class="title-features">Пунктуальність</h3>
                     <p class="text-features">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="title-features">Планування</h3>
                     <p class="text-features">Так само консультація з широким активом значно обумовлює.</p>
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="title-features">Сучасні технології</h3>
                     <p class="text-features">Значимість цих проблем є настільки очевидною, що реалізація планових завдань.</p>
                 </li>
             </ul>
         </section>
 
-        <!--Чим ми займаэмося-->
-        <section>
-            <h2 class="main-title">Чим ми займаємося</h2>
-            <ul>
-                <li>
-                    <img src="./images/img1.jpg" alt="photo first" width="370">
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <img src="./images/img2.jpg" alt="photo second" width="370">
-                </li>
-            </ul>
-
-            <ul>
-                <li>
-                    <img src="./images/img3.jpg" alt="photo third" width="370">
-                </li>
-            </ul>
-        </section>
+        <!--Чим ми займаэмося--> 
+        <div class="conteiner">
+            <section class="flex-conteiner">
+                <h2 class="main-title">Чим ми займаємося</h2>
+                <ul>
+                    <li>
+                        <img src="./images/img1.jpg" alt="photo first" width="370">
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>
+                        <img src="./images/img2.jpg" alt="photo second" width="370">
+                    </li>
+                </ul>
+            
+                <ul>
+                    <li>
+                        <img src="./images/img3.jpg" alt="photo third" width="370">
+                    </li>
+                </ul>
+            </section>
+        
+        </div>
 
         <!--Наша команда-->
         <section class="team">
@@ -157,6 +166,9 @@
         
         </address>
     </footer>
+
+  </div>
+
 
 </body>
 
