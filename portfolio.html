@@ -18,29 +18,32 @@
     <!--Шапка-->
     
     <header>
-        <nav>
-            <a href="" class="logo"><span>Web</span>Studio</a>
-            <ul>
-                <li>
-                    <a href="./index.html" class="nav">Студія</a>
+        <div class="conteiner-menu">
+            <nav class="conteiner-menu">
+                <a href="" class="logo"><span>Web</span>Studio</a>
+                <ul class="conteiner-menu">
+                    <li class="conteiner-menu-list">
+                        <a href="./index.html" class="nav">Студія</a>
+                    </li>
+                    <li class="conteiner-menu-list">
+                        <a href="./portfolio.html" class="nav">Портфоліо</a>
+                    </li>
+                    <li class="conteiner-menu-list">
+                        <a href="" class="nav">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <ul class="conteiner-menu contacts">
+                <li class="contacts conteiner-menu-list">
+                    <a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="./portfolio.html" class="nav">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="" class="nav">Контакти</a>
+                <li class="contacts conteiner-menu-list">
+                    <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-    
-        <ul class="contacts">
-            <li>
-                <a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
+        
     </header>
 
 
@@ -51,75 +54,84 @@
         
 
         <section>
-
+            
             <!--Filter-->
-            <ul>
-                <li>
-                    <button type="button" class="button-filter">Всі</button>   
-                </li>
-                <li>
-                     <button type="button" class="button-filter">Веб сайти</button>      
-                </li>
-                <li> 
-                    <button type="button" class="button-filter">Додатки</button>  
-                </li>
-                <li> 
-                    <button type="button" class="button-filter">Дизайн</button>  
-                </li>
-                <li> 
-                    <button type="button" class="button-filter">Маркетинг</button>  
-                </li>
-            </ul>
+
+            <div class="conteiner">
+                <ul class="flex-conteiner">
+                    <li class="flex-elemet">
+                        <button type="button" class="button-filter">Всі</button>
+                    </li>
+                    <li class="flex-elemet">
+                        <button type="button" class="button-filter">Веб сайти</button>
+                    </li>
+                    <li class="flex-elemet">
+                        <button type="button" class="button-filter">Додатки</button>
+                    </li>
+                    <li class="flex-elemet">
+                        <button type="button" class="button-filter">Дизайн</button>
+                    </li>
+                    <li class="flex-elemet">
+                        <button type="button" class="button-filter">Маркетинг</button>
+                    </li>
+                </ul>
+
+            </div>
+
+            
+           
 
             <!--Progect-->
 
-            <ul>
-                <li>
-                    <img src="./images/Portfolio/img.jpg" alt="Progect site" width="370" height="294">
-                    <h2 class="progect">Технокряк</h2>
-                    <p class="progect-text">Веб сайт</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-1.jpg" alt="Progect design" width="370" height="294">
-                    <h2 class="progect">Постер New Orlean vs Golden Star</h2>
-                    <p class="progect-text">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-2.jpg" alt="Progect applicatoin" width="370" height="294">
-                    <h2 class="progect">Ресторан Seafood</h2>
-                    <p class="progect-text">Додаток</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-3.jpg" alt="Progect marketing" width="370" height="294">
-                    <h2 class="progect">Проект Prime</h2>
-                    <p class="progect-text">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-4.jpg" alt="Progect applicatoin" width="370" height="294">
-                    <h2 class="progect">Проект Boxes</h2>
-                    <p class="progect-text">Додаток</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-5.jpg" alt="Progect site" width="370" height="294">
-                    <h2 class="progect">Inspiration has no Borders</h2>
-                    <p class="progect-text">Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-6.jpg" alt="Progect design" width="370" height="294">
-                    <h2 class="progect">Издание Limited Edition</h2>
-                    <p class="progect-text">Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-7.jpg" alt="Progect marketing" width="370" height="294">
-                    <h2 class="progect">Проект LAB</h2>
-                    <p class="progect-text">Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/Portfolio/img-8.jpg" alt="Progect applicatoin" width="370" height="294">
-                    <h2 class="progect">Growing Business</h2>
-                    <p class="progect-text">Додаток</p>
-                </li>
-            </ul>
+            <div class="conteiner">
+                <ul class="conteiner-flex">
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img.jpg" alt="Progect site" width="370" height="294">
+                        <h2 class="progect">Технокряк</h2>
+                        <p class="progect-text">Веб сайт</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-1.jpg" alt="Progect design" width="370" height="294">
+                        <h2 class="progect">Постер New Orlean vs Golden Star</h2>
+                        <p class="progect-text">Дизайн</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-2.jpg" alt="Progect applicatoin" width="370" height="294">
+                        <h2 class="progect">Ресторан Seafood</h2>
+                        <p class="progect-text">Додаток</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-3.jpg" alt="Progect marketing" width="370" height="294">
+                        <h2 class="progect">Проект Prime</h2>
+                        <p class="progect-text">Маркетинг</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-4.jpg" alt="Progect applicatoin" width="370" height="294">
+                        <h2 class="progect">Проект Boxes</h2>
+                        <p class="progect-text">Додаток</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-5.jpg" alt="Progect site" width="370" height="294">
+                        <h2 class="progect">Inspiration has no Borders</h2>
+                        <p class="progect-text">Веб-сайт</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-6.jpg" alt="Progect design" width="370" height="294">
+                        <h2 class="progect">Издание Limited Edition</h2>
+                        <p class="progect-text">Дизайн</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-7.jpg" alt="Progect marketing" width="370" height="294">
+                        <h2 class="progect">Проект LAB</h2>
+                        <p class="progect-text">Маркетинг</p>
+                    </li>
+                    <li class="flex-project">
+                        <img src="./images/Portfolio/img-8.jpg" alt="Progect applicatoin" width="370" height="294">
+                        <h2 class="progect">Growing Business</h2>
+                        <p class="progect-text">Додаток</p>
+                    </li>
+                </ul>
+            </div>
 
 
         
@@ -129,26 +141,32 @@
     </main>
     
     
-    <footer class="footer-color">
-        <a href="" class="logo-footer"><span>Web</span>Studio</a>
-        <address class="address-text">
-            <ul>
-                <li>
-                    <a href="" class="footer-text">м. Київ, пр-т Лесі Українки, 26</a>
-                </li>
+    <div class="conteiner">
+        <footer class="footer-color">
+            <div class="footer-content">
+                <a href="" class="logo-footer"><span>Web</span>Studio</a>
+                <address class="address-text">
+                    <ul class="footer-list">
+                        <li class="list-text">
+                            <a href="" class="footer-text">м. Київ, пр-т Лесі Українки, 26</a>
+                        </li>
     
-                <li>
-                    <a href="mailto:info@example.com" class="nav-contact">info@example.com</a>
-                </li>
+                        <li class="list-text-mail">
+                            <a href="mailto:info@example.com" class="nav-contact">info@example.com</a>
+                        </li>
     
-                <li>
-                    <a href="tel:+380991111111" class="nav-contact">+38 099 111 11 11</a>
-                </li>
+                        <li class="list-text-last">
+                            <a href="tel:+380991111111" class="nav-contact">+38 099 111 11 11</a>
+                        </li>
+                    </ul>
     
-            </ul>
+                </address>
     
-        </address>
-    </footer>
+            </div>
+    
+    
+    
+        </footer>
 
 
 

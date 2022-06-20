@@ -33,7 +33,7 @@ html {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1230px;
+    width: 1200px;
 }
 
 h1, h2, h3, h4 {
@@ -49,9 +49,12 @@ img {
     display: flex;
     max-width: 100%;
     height: auto;
+ 
 }
 
-
+.section {
+    padding-bottom: 94px;
+}
 
 /* body */
 
@@ -202,12 +205,7 @@ span {
     .baner-title {
         text-align: center;
         margin-bottom: 50px;
-        outline: 2px solid white;
-       
-    
-    
-        
-   }   
+     }   
     
    
         
@@ -243,8 +241,14 @@ span {
 
 
 
-      
+  .conteiner-work {
+    display: flex;
+  }
    
+.work .flex-conteiner {
+    display: flex;
+
+}
 
 
     
@@ -256,13 +260,14 @@ span {
 .features {
     display: flex;
     flex-wrap: wrap;
-    justify-content:  space-between;
+    justify-content: space-between;
+    margin-right: 15px;
     
 }
 
-.item {
-    margin-right: 15px;
-    text-align: left;
+.feautures. item {
+    display: inline;
+
 }
    .title-features {
     font-size: 14px;
@@ -281,18 +286,43 @@ span {
 }
 
 
-/* work/*
 
-.flex-conteiner {
+.work-flex-conteiner {
     display: flex;
-    flex-wrap: wrap
-}   
- 
-    
+    width: 1200px;
+
+
+}
+
+
+
+
+.conteiner-elements {
+    width: 370px;
+    justify-content: space-between
+}
+
 
 /* Team */
 
- .team-title {
+.team-list-conteiner {
+    display: flex;
+    padding-top: 30px;
+}
+.list-elements {
+    margin-right: 30px;
+}
+
+.list-elements:nth-child(4n) {
+    margin-right: 0;
+
+}
+.team-text-conteiner {
+    width: 1170px;
+}
+
+
+.team-title {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.19;
@@ -307,9 +337,36 @@ line-height: 1.19;
 
 .team {
     background-color: #F5F4FA;
+    padding-top: 40px;
+    padding-bottom: 94px;
 }
 
 /* footer */
+
+.footer-content {
+    margin-left: 200px;
+    padding-top: 60px;
+    
+}
+.footer-list {
+    padding-bottom: 20px;
+    margin-left: -30px;
+}
+
+ 
+.list-text {
+    padding-top: 9px;
+
+
+}
+
+.list-text-mail {
+     padding-bottom: 9px;
+     padding-top: 9px;
+}
+.list-text-last {
+    padding-bottom: 60px;
+}
 
 .address-text {
     font-style: normal;
@@ -319,8 +376,9 @@ line-height: 1.19;
 
 .footer-color {
     background-color: #2F303A;
-}
 
+
+}
 
 .footer-text{
     color: var(--fon-second);
@@ -366,6 +424,18 @@ line-height: 1.19;
 
 /* Filter */
 
+.flex-conteiner {
+    display: inline-flex;
+    width: 1200px;
+    justify-content: center;
+
+}
+
+.flex-elemet {
+    margin-right: 8px;
+}
+
+
 .button-filter {
     font-size: 16px;
     font-weight: 500;
@@ -386,6 +456,16 @@ line-height: 1.19;
 
 
 }
+
+.conteiner-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 94px;
+    padding-top: 56px;
+}
+
+
 
 
 
