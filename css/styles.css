@@ -550,8 +550,9 @@ line-height: 1.19;
     padding-top: 20px;
     background-color: #fff;
     border: 1px solid #EEEEEE;
-    width: 370px;
+
     text-align: left;
+        width: 370px;
 
     
 }
