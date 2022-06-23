@@ -162,32 +162,40 @@ span {
 
 }
 
+.nav {
+    color: var(--main-color);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-decoration-line: none;
+}
 
-
-.nav-contact:hover,
+.nav-contact:hover {
+   color: #2196F3;
+}
+     
 .nav-contact:focus {
     color: var(--accent);
 }
+.nav .active:active {
+    color: #2196F3;
+}
 
-
-.nav:hover,
+.nav:hover {
+    color: #2196F3;
+}
 .nav:focus {
     color: var(--accent);
 
 }
 
 
+
 .contact {
     color: #757575;
 }
 
-.nav {
-      color: var(--main-color);
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 1.17;
-      text-decoration-line: none;
-  }
+
 
   
 
